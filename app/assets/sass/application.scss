@@ -1,0 +1,8 @@
+// global styles for <a> and <p> tags
+$govuk-global-styles: true;
+*{box-sizing:border-box !important;}
+@media (min-width: 769px), all { #global-header .header-wrapper .header-global .header-logo { width: auto !important; } }
+
+// Service manual
+@import "core-layout";
+@import "govuk-template";
