@@ -2,6 +2,7 @@
 $govuk-global-styles: true;
 *{box-sizing:border-box !important;}
 @media (min-width: 769px), all { #global-header .header-wrapper .header-global .header-logo { width: auto !important; } }
+#global-header .header-wrapper .header-global .header-logo .content { margin-left: 0 !important; }
 
 // Service manual
 @import "core-layout";
