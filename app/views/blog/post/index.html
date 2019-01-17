@@ -1,0 +1,129 @@
+{% extends "layout_blog.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <header class="header" role="banner">
+    <div class="grid-row">
+
+        
+        <div class="column-two-thirds">
+            <h1 class="blog-title">
+                <span class="blog"><a href="https://www.blog.gov.uk/">Blog</a></span>
+                <a href="https://insidegovuk.blog.gov.uk">Inside GOV.UK</a>
+            </h1>
+
+                            <div class="bottom blog-meta">
+                                                    <dl>
+                                <dt>Organisations:</dt>
+                                <dd><a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a></dd>
+                            </dl>
+                                                                </div>
+                    </div>
+
+        
+
+    </div>
+
+            <div class="grid-row">
+                    </div>
+    
+</header>
+      <main id="content" class="grid-row" role="main">
+    <div class="column-two-thirds main-content">
+        <article class="clearfix post-11418 post type-post status-publish format-standard has-post-thumbnail hentry category-content category-product-changes">
+    <div class="visible-print">
+      <p>https://insidegovuk.blog.gov.uk/2018/12/18/do-users-look-sideways-experimenting-with-a-new-way-of-moving-between-content-types/</p>
+    </div>
+    <header>
+      <h1 class="entry-title">Experimenting with a new way of moving between content types</h1>
+      <div class="byline author vcard">
+    <span class="visuallyhidden">Posted by: </span>
+  <a href="https://insidegovuk.blog.gov.uk/author/alanmaddrellgovuk/" title="Posts by Alan Maddrell" class="author url fn" rel="author">Alan Maddrell</a> and <a href="https://insidegovuk.blog.gov.uk/author/ganeshsenthi/" title="Posts by Ganesh Senthi" class="author url fn" rel="author">Ganesh Senthi</a>, <span class="visuallyhidden">Posted on: </span><time class="updated" datetime="2018-12-18T14:14:58+00:00" pubdate>18 December 2018</time>
+  -
+  <span class="visuallyhidden">Categories: </span>
+  <a href="https://insidegovuk.blog.gov.uk/category/content/" rel="category tag">Content</a>, <a href="https://insidegovuk.blog.gov.uk/category/product-changes/" rel="category tag">Product changes</a></div>
+    </header>
+    <div class="entry-content">
+      <figure id="attachment_11425" class="thumbnail wp-caption alignnone" style="width: 620px"><img class="wp-image-11425 size-large" src="https://insidegovuk.blog.gov.uk/wp-content/uploads/sites/24/2018/12/supergroups-added-e1545136953884-620x413.png" alt="Screenshot of 'Services' and 'Guidance and regulation' supergroups" width="620" height="413" srcset="https://insidegovuk.blog.gov.uk/wp-content/uploads/sites/24/2018/12/supergroups-added-e1545136953884-620x413.png 620w, https://insidegovuk.blog.gov.uk/wp-content/uploads/sites/24/2018/12/supergroups-added-e1545136953884-310x206.png 310w, https://insidegovuk.blog.gov.uk/wp-content/uploads/sites/24/2018/12/supergroups-added-e1545136953884-768x511.png 768w, https://insidegovuk.blog.gov.uk/wp-content/uploads/sites/24/2018/12/supergroups-added-e1545136953884-435x289.png 435w" sizes="(max-width: 620px) 100vw, 620px" /><figcaption class="caption wp-caption-text">We experimented with showing contextually appropriate content to users, organised by supergroup.</figcaption></figure>
+<p>We want to make it easier for users to move between different types of content if and when they want to. This is sometimes called a 'sideways push'. The content pages and site navigation team experimented with a new way of doing this over the summer.</p>
+<h2>Context is king</h2>
+<p><a href="https://insidegovuk.blog.gov.uk/2015/11/02/developing-a-subject-based-taxonomy-for-gov-uk/">The site-wide topic taxonomy</a> makes it possible for us to show everything about a subject on GOV.UK. But we wanted to experiment with showing more contextually appropriate links on different kinds of pages. For example, users reading a news story might be interested in a consultation in the same area.</p>
+<p>It's common practice on other large websites and we wanted to see if GOV.UK users explore in similar ways.</p>
+<p>We developed a design to show tagged content on a particular topic at the bottom of a wide range of content types.</p>
+<h2>Working out what to put where</h2>
+<p>We developed rules based on the job users are likely to be doing when they're on a type of page. For example, users viewing consultations may be contributing to the formation of government policy, so we tailored the types of content displayed on that format.</p>
+<p>This helped us mitigate the impact on users who are likely to be focused on the straightforward task they're doing and to avoid overloading the page.</p>
+<p>We were mindful of the latter risk and increasing the <a href="https://www.nngroup.com/articles/minimize-cognitive-load/">cognitive load</a> on users with links that were not relevant. So we ran a limited <a href="https://vwo.com/ab-testing/">A/B test</a> which lasted long enough for us to gather data for analysis, using the standard GOV.UK pages as the control, with our added navigational elements as the variant.</p>
+<h2>Results and what's next</h2>
+<p>We've monitored things like:</p>
+<ul>
+<li>usage of the types of links on different content types</li>
+<li>average time spent on page</li>
+</ul>
+<p>Alongside the A/B test, we also conducted some lab-based and contextual user research sessions with people like researchers and other regular users of departmental policy content. We believe these contextual links will be useful to people coming to GOV.UK for those reasons.</p>
+<p>What we learned:</p>
+<ul>
+<li>interaction with the supergroup links averaged at 2% of clicks on the pages, which is a reasonable number for links to other content pages and shows they were somewhat useful to some users</li>
+<li>links to guidance content averaged higher at 6%, showing users found this the more useful of the 2 options</li>
+<li>we tried a new design for a <a href="https://en.wikipedia.org/wiki/Breadcrumb_(navigation)">breadcrumb</a> for content tagged to multiple topics but it did not work as well as we'd hoped</li>
+<li>people interacted more with topic links at the bottom of the page than in the sidebar</li>
+<li>people clicking on topic links at the bottom of the page tended to explore topics further</li>
+<li>users of mainstream content were less likely to click the supergroup links and stay focused on their task</li>
+<li><a href="https://support.google.com/analytics/answer/1009409?hl=en">bounce rates</a>, <a href="https://en.wikipedia.org/wiki/Exit_rate">exit rates</a> and average time on page were largely unaffected</li>
+</ul>
+<p>From this work, the immediate change we’ve made is to move topic links to the bottom of pages. These attract more interaction from users and encourage further exploration.</p>
+<p>We plan to use our other findings to feed into our future work in this area and continue improving user journeys on GOV.UK.</p>
+<p>Alan is a senior content designer and Ganesh is a product manager on GOV.UK.</p>
+<blockquote class="noquotes"><p><a href="https://insidegovuk.blog.gov.uk/subscribe/">Subscribe to updates from this blog</a>.</p></blockquote>
+    </div>
+    <footer class="single">
+                      </footer>
+  </article>
+
+  <nav class="page-numbers-container page-navigation" aria-label="Pagination">
+    <div class="previous">
+      <a href="https://insidegovuk.blog.gov.uk/2018/11/28/making-sure-users-see-updates-caching/" rel="prev">Making sure users can see updates by optimising caching</a>    </div>
+    <div class="next">
+          </div>
+  </nav>
+
+  
+</div>
+<div class="column-one-third sidebar-contain">
+      <aside class="sidebar" role="complementary">
+  <section class="widget about_widget"><h3>Inside GOV.UK</h3><p>A blog about running and improving the GOV.UK website, for people who create or manage content on the site, frequent users and anyone else who is interested.  Written by the GOV.UK team.</p>
+</section>
+
+    <section class="widget recent-posts-3 widget_recent_entries"><div class="widget-inner">   <h3>Recent posts</h3>   <ul>
+                      <li>
+          <a href="https://insidegovuk.blog.gov.uk/2018/12/18/do-users-look-sideways-experimenting-with-a-new-way-of-moving-between-content-types/">Experimenting with a new way of moving between content types</a>
+                      <span class="post-date">18 December 2018</span>
+                  </li>
+                      <li>
+          <a href="https://insidegovuk.blog.gov.uk/2018/11/28/making-sure-users-see-updates-caching/">Making sure users can see updates by optimising caching</a>
+                      <span class="post-date">28 November 2018</span>
+                  </li>
+                      <li>
+          <a href="https://insidegovuk.blog.gov.uk/2018/11/21/making-content-supergroups-more-super/">Making content supergroups more super</a>
+                      <span class="post-date">21 November 2018</span>
+                  </li>
+                      <li>
+          <a href="https://insidegovuk.blog.gov.uk/2018/11/14/how-tagging-has-changed-for-publishers/">How tagging has changed for publishers</a>
+                      <span class="post-date">14 November 2018</span>
+                  </li>
+                      <li>
+          <a href="https://insidegovuk.blog.gov.uk/2018/11/02/incident-roundup-march-to-may-2018/">Incident roundup - March to May 2018</a>
+                      <span class="post-date">2 November 2018</span>
+                  </li>
+          </ul>
+    </div></aside>
+    </div>
+</main>
+</div>
+
+  {% endblock %}
