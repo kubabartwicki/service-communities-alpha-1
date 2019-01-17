@@ -1,7 +1,7 @@
 {% extends "layout_blog.html" %}
 
 {% block pageTitle %}
-  Create a proposal document - Service communities - GOV.UK
+  Create a service landscape - Service communities - GOV.UK
 {% endblock %}
 
 {% block content %}
@@ -44,8 +44,7 @@
     </header>
     <div class="entry-content">
 
-<blockquote class="noquotes"><p>We are looking for contributions. <a href="https://insidegovuk.blog.gov.uk/subscribe/">Submit a post</a></p></blockquote>
-
+{% include "contributions.html" %}
 
 <p>A clear proposal for the service community will help you to gather support and ensure everyone involved has a clear and shared understanding of its purpose. </p>
 <p><a href="https://docs.google.com/document/d/1nAIaQikbojJf0CG2uzOopGae6E3YiaBiVdXoxdLArkE/edit">Defra collaborated with DIT to write a proposal</a> for the creation of an Import-Export service sommunity. They highlighted common issues for multiple departments working in the area, and how efforts were being duplicated and transformation opportunities missed. </p>
@@ -67,17 +66,7 @@
   
 </div>
 <div class="column-one-third sidebar-contain">
-      <aside class="sidebar" role="complementary">
-  <section class="widget about_widget"><h3>Service communities</h3><p>A blog about ???</p>
-</section>
-
-    <section class="widget recent-posts-3 widget_recent_entries"><div class="widget-inner">   <h3>Recent posts</h3>   <ul>
-                      <li>
-          <a href="https://insidegovuk.blog.gov.uk/2018/12/18/do-users-look-sideways-experimenting-with-a-new-way-of-moving-between-content-types/">Create a proposal document for your service community</a>
-                      <span class="post-date">21 January 2019</span>
-                  </li>
-          </ul>
-    </div></aside>
+      {% include "sidebar.html" %}
     </div>
 </main>
 </div>
